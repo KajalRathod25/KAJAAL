@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="kajaalFlow" doc:id="98ddcf5c-1fc3-468e-b294-830611ba1831" >
 		<http:listener doc:name="Listener" doc:id="2035f049-8155-446f-bb01-746d520d4e67" config-ref="HTTP_Listener_config" path="/kajal"/>
 		<logger level="INFO" doc:name="Logger" doc:id="680d916d-d9fc-4626-9836-73e3dce05e54" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="3de1bf3e-b2ac-4861-b115-2d42b104569c" />
 	</flow>
 </mule>
